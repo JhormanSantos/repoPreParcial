@@ -1,0 +1,12 @@
+Nombre de los estudiantes de sexo femenino, mayores a 16 y sisben inferior a 3Nombre: Josefa 
+Edad: 17 
+Sexo: F 
+Residencia: Rural 
+Sisben: 2 
+
+Nombre: Manuela 
+Edad: 18 
+Sexo: F 
+Residencia: Rural 
+Sisben: 1 
+

@@ -24,4 +24,26 @@ def evaluacion(datos):
                 estudiantes.append(datos[x])
     return estudiantes
 
-            
+def crear_archivo():
+    archivo= open('archivo_estudiantes.txt', 'w')
+    archivo.close()
+    
+def agg_datos(arc,data):
+    arch= open(arc, 'a')
+    arch.write(data)
+    arch.close()
+    
+def read(arc):
+    archivo= open(arc, 'r')
+    contenido= archivo.read()
+    archivo.close()
+    return contenido
+
+
+validacion= evaluacion(data)
+print(validacion)
+crear_archivo()
+agg_datos('archivo_estudiantes.txt', 'Nombre de los estudiantes de sexo femenino, mayores a 16 y sisben inferior a 3\n')
+for x in validacion:
+    new_list=  list(x)
+    agg_datos('archivo_estudiantes.txt', f'Nombre: {x[0]} \nEdad: {x[1]} \nSexo: {x[2]} \nResidencia: {x[3]} \nSisben: {x[4]} \n\n')
