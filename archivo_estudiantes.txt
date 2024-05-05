@@ -1,4 +1,5 @@
-Nombre de los estudiantes de sexo femenino, mayores a 16 y sisben inferior a 3Nombre: Josefa 
+Nombre de los estudiantes de sexo femenino, mayores a 16 y sisben inferior a 3
+Nombre: Josefa 
 Edad: 17 
 Sexo: F 
 Residencia: Rural 
@@ -9,4 +10,22 @@ Edad: 18
 Sexo: F 
 Residencia: Rural 
 Sisben: 1 
+
+Nombre: Valentina 
+Edad: 20 
+Sexo: F 
+Residencia: Rural 
+Sisben: 2 
+
+Nombre: Yuly 
+Edad: 22 
+Sexo: F 
+Residencia: Urbano 
+Sisben: 1 
+
+Nombre: Yuri 
+Edad: 23 
+Sexo: F 
+Residencia: Urbano 
+Sisben: 2 
 
