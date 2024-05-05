@@ -14,3 +14,14 @@ def leer_excel(archivo):
 
 data= leer_excel('Colegio.xlsx')
 print(data)
+
+def evaluacion(datos):
+    estudiantes= []
+    for x in range(len(datos)):
+        if x==0:
+            pass
+        elif (datos[x][1]>16) and (datos[x][2]== 'F') and (datos[x][4]<3):
+                estudiantes.append(datos[x])
+    return estudiantes
+
+            
